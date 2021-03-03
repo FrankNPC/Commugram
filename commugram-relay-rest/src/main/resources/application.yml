@@ -1,0 +1,6 @@
+server:
+  port: 83
+
+spring:
+  application:
+    name: commugram-portal-rest

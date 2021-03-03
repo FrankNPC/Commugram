@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>org.commugram.relay.tcp</groupId>
+	<artifactId>commugram-relay-tcp</artifactId>
+    <packaging>jar</packaging>
+	
+	<name>commugram-relay-tcp</name>
+    <description>Commugram TCP Relay Service</description>
+	<url>https://commugram.org</url>
+
+	<parent>
+		<groupId>org.commugram</groupId>
+		<artifactId>commugram</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+	</properties>
+
+	<dependencies>
+        <dependency>
+			<groupId>universal.message</groupId>
+			<artifactId>universal-message</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+			<groupId>org.commugram.relay.service</groupId>
+			<artifactId>commugram-relay-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+        </dependency>
+	    <dependency>
+	    	<groupId>org.springframework.boot</groupId>
+	    	<artifactId>spring-boot-starter</artifactId>
+	    </dependency>
+        
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<defaultGoal>clean package</defaultGoal>
+
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>
+						org.commugram.relay.service.CommugramTCPRelaySpringApplicationBoot
+					</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

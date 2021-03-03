@@ -1,0 +1,6 @@
+server:
+  port: 86
+
+spring:
+  application:
+    name: commugram-relay-overview

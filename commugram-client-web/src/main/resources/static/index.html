@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Page</title>
+    <style>
+    	table,table tr th, table tr td { border:1px solid GREY; }
+        table { text-align: center; border-collapse: collapse; }  
+        input[type=text] { width:80%; }
+        .border-red { background-color: beige; }
+        .messages { height: 100%; width: 100%; overflow-y: auto;}
+        .messages dd { width: 100%; height: 30px; line-height: 30px; margin: 0; padding: 0; }
+        .messages dd div { width: 30px; height: 30px; overflow: hidden; }
+        .messages .left  { text-align: left; }
+        .messages .right { text-align: right; }
+        .messages .text { width: 85%; height: auto; }
+        .messages .left div  { float: left; margin-left: 5px; }
+        .messages .right div { float: right; margin-right: 5px; }
+    </style>
+	<script src="modules/jquery-3.5.1.min.js"></script>
+	<script src="modules/constant.js"></script>
+	<script src="modules/plugins.js"></script>
+	<script src="modules/chat.js"></script>
+    </head>
+
+	<body style="width:100%;height:100%;margin:0;padding:0;">
+		<div style="width:100%;height:100%;position: absolute;margin:0;padding:0;" id="client">
+			<table style="width:100%" id="users_table">
+				<tr>
+					<th>userid</th>
+					<th>loginname</th>
+					<th>loginpassword</th>
+					<th>logintoken</th>
+					<th>action</th>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td><input type="text" id="loginname" /></td>
+					<td><input type="text" id="loginpassword" /></td>
+					<td>&nbsp;</td>
+					<td><label id="label_register"></label><input type="button" id="Register" value="Register" /><input type="button" id="Login" value="Login" /></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

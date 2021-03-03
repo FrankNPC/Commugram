@@ -1,0 +1,22 @@
+#English
+The developers are subjected to the GPLv2.
+
+The service provider or data operation organization are obligated to guarantee:
+ 1: release all data belongs the user without denying to the user who requested; the data should be removed from the position that user hasn't authorized.
+ 2：as user send the data, it should be sent to the final user without denying; strictly stand with the neutral position and so will never provide any comments or tips.
+ 3: release the general information and the physical location of the server which transfer and store the user's data, to the user.
+ 4: release the source code of the software which will read and operate the user's data, to the public at least before deployment.
+ 5: inform the user and the public in advance with details of user's data that accessed by closed source software.
+ 6: inform the user and the public immediately with details of the server and the software that they install, change, configure or remove.
+ 7: inform the user or the public immediately with details of any organization or person request accessing the user's data.
+ 8: inform the user and the public with who will access the user data with noticeable and direct notice regarding who possibility, how and when will utilize its data.
+ 9: only after user allowed, then can read, operate and store user's data for only one time designated purpose, then remove the data radically.
+10: any time, keep the user's original data, so users can transplant the data to anywhere without damage.
+11: any time, store and transfer user's data across instance with encryption.
+12: remove the data related to the user when the user remove its account, simultaneously inform the organization that obtained the data remove the data immediately.
+13: will not release or rerelease the user's data to any other organization, cooperated organization or person.
+14: allow and serve the representatives of these users censor the operation that process the user's data.
+15: completely and permanently clear the user's data before you are terminated.
+16: the user's data will not exist or store on the server that in or being controlled by the organization or the country which is censoring or suppressing freedom speech.
+
+Client user will not subject restriction:
